@@ -426,6 +426,15 @@
 .pf-debin:before {
   content: "\f07a";
 }
+.pf-habitualista:before {
+  content: "\f07b";
+}
+.pf-rapipago:before {
+  content: "\f07c";
+}
+.pf-pagofacil:before {
+  content: "\f07d";
+}
 
 /*
  * Finito!

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'paymentfont-webfont';
-  src:  url('fonts/paymentfont-webfont.eot?1m0i3l');
-  src:  url('fonts/paymentfont-webfont.eot?1m0i3l#iefix') format('embedded-opentype'),
-    url('fonts/paymentfont-webfont.ttf?1m0i3l') format('truetype'),
-    url('fonts/paymentfont-webfont.woff?1m0i3l') format('woff'),
-    url('fonts/paymentfont-webfont.svg?1m0i3l#paymentfont-webfont') format('svg');
+  src:  url('fonts/paymentfont-webfont.eot?6p3lsp');
+  src:  url('fonts/paymentfont-webfont.eot?6p3lsp#iefix') format('embedded-opentype'),
+    url('fonts/paymentfont-webfont.ttf?6p3lsp') format('truetype'),
+    url('fonts/paymentfont-webfont.woff?6p3lsp') format('woff'),
+    url('fonts/paymentfont-webfont.svg?6p3lsp#paymentfont-webfont') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -82,7 +82,7 @@
 .pf-credit-card:before {
   content: "\f012";
 }
-.pf-diners:before {
+.pf-diners-club:before {
   content: "\f013";
 }
 .pf-discover:before {
@@ -376,7 +376,7 @@
 .pf-cabal:before {
   content: "\f074";
 }
-.pf-diners1:before {
+.pf-diners:before {
   content: "\f075";
 }
 .pf-argencard:before {
@@ -393,4 +393,13 @@
 }
 .pf-debin:before {
   content: "\f07a";
+}
+.pf-habitualista:before {
+  content: "\f07b";
+}
+.pf-rapipago:before {
+  content: "\f07c";
+}
+.pf-pagofacil:before {
+  content: "\f07d";
 }
