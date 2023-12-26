@@ -1,5 +1,17 @@
-PaymentFont 1.2.5
+PaymentFont 1.3
 =================
+
+New version based in abandoned Payment Font by Alexander Manfred Pöllmann
+
+New icons:
+* Cabal credit
+* Diners Club credit
+* Argencard credit
+* Pago Mis Cuentas
+* Red Link
+* MODO
+
+***
 
 A sleek webfont for your favourite payment operators and methods. **Get started at [PaymentFont.com](https://paymentfont.com)!**
 

@@ -1,0 +1,645 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1m0i3l');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1m0i3l#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?1m0i3l') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?1m0i3l') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?1m0i3l##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="pf-"], [class*=" pf-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pf-amazon {
+  &:before {
+    content: $pf-amazon; 
+  }
+}
+.pf-american-express {
+  &:before {
+    content: $pf-american-express; 
+  }
+}
+.pf-american-express-alt {
+  &:before {
+    content: $pf-american-express-alt; 
+  }
+}
+.pf-atm {
+  &:before {
+    content: $pf-atm; 
+  }
+}
+.pf-bankomat {
+  &:before {
+    content: $pf-bankomat; 
+  }
+}
+.pf-bank-transfer {
+  &:before {
+    content: $pf-bank-transfer; 
+  }
+}
+.pf-bitcoin {
+  &:before {
+    content: $pf-bitcoin; 
+  }
+}
+.pf-bitcoin-sign {
+  &:before {
+    content: $pf-bitcoin-sign; 
+  }
+}
+.pf-braintree {
+  &:before {
+    content: $pf-braintree; 
+  }
+}
+.pf-btc {
+  &:before {
+    content: $pf-btc; 
+  }
+}
+.pf-card {
+  &:before {
+    content: $pf-card; 
+  }
+}
+.pf-carta-si {
+  &:before {
+    content: $pf-carta-si; 
+  }
+}
+.pf-cash {
+  &:before {
+    content: $pf-cash; 
+  }
+}
+.pf-cash-on-delivery {
+  &:before {
+    content: $pf-cash-on-delivery; 
+  }
+}
+.pf-cb {
+  &:before {
+    content: $pf-cb; 
+  }
+}
+.pf-cirrus {
+  &:before {
+    content: $pf-cirrus; 
+  }
+}
+.pf-cirrus-alt {
+  &:before {
+    content: $pf-cirrus-alt; 
+  }
+}
+.pf-clickandbuy {
+  &:before {
+    content: $pf-clickandbuy; 
+  }
+}
+.pf-credit-card {
+  &:before {
+    content: $pf-credit-card; 
+  }
+}
+.pf-diners {
+  &:before {
+    content: $pf-diners; 
+  }
+}
+.pf-discover {
+  &:before {
+    content: $pf-discover; 
+  }
+}
+.pf-ec {
+  &:before {
+    content: $pf-ec; 
+  }
+}
+.pf-eps {
+  &:before {
+    content: $pf-eps; 
+  }
+}
+.pf-eur {
+  &:before {
+    content: $pf-eur; 
+  }
+}
+.pf-facture {
+  &:before {
+    content: $pf-facture; 
+  }
+}
+.pf-fattura {
+  &:before {
+    content: $pf-fattura; 
+  }
+}
+.pf-flattr {
+  &:before {
+    content: $pf-flattr; 
+  }
+}
+.pf-giropay {
+  &:before {
+    content: $pf-giropay; 
+  }
+}
+.pf-google-wallet {
+  &:before {
+    content: $pf-google-wallet; 
+  }
+}
+.pf-google-wallet-alt {
+  &:before {
+    content: $pf-google-wallet-alt; 
+  }
+}
+.pf-gbp {
+  &:before {
+    content: $pf-gbp; 
+  }
+}
+.pf-gratipay {
+  &:before {
+    content: $pf-gratipay; 
+  }
+}
+.pf-ideal {
+  &:before {
+    content: $pf-ideal; 
+  }
+}
+.pf-ils {
+  &:before {
+    content: $pf-ils; 
+  }
+}
+.pf-inr {
+  &:before {
+    content: $pf-inr; 
+  }
+}
+.pf-invoice {
+  &:before {
+    content: $pf-invoice; 
+  }
+}
+.pf-invoice-sign {
+  &:before {
+    content: $pf-invoice-sign; 
+  }
+}
+.pf-invoice-sign-alt {
+  &:before {
+    content: $pf-invoice-sign-alt; 
+  }
+}
+.pf-invoice-sign-alt-o {
+  &:before {
+    content: $pf-invoice-sign-alt-o; 
+  }
+}
+.pf-invoice-sign-o {
+  &:before {
+    content: $pf-invoice-sign-o; 
+  }
+}
+.pf-jcb {
+  &:before {
+    content: $pf-jcb; 
+  }
+}
+.pf-jpy {
+  &:before {
+    content: $pf-jpy; 
+  }
+}
+.pf-krw {
+  &:before {
+    content: $pf-krw; 
+  }
+}
+.pf-maestro {
+  &:before {
+    content: $pf-maestro; 
+  }
+}
+.pf-maestro-alt {
+  &:before {
+    content: $pf-maestro-alt; 
+  }
+}
+.pf-mastercard {
+  &:before {
+    content: $pf-mastercard; 
+  }
+}
+.pf-mastercard-alt {
+  &:before {
+    content: $pf-mastercard-alt; 
+  }
+}
+.pf-mastercard-securecode {
+  &:before {
+    content: $pf-mastercard-securecode; 
+  }
+}
+.pf-ogone {
+  &:before {
+    content: $pf-ogone; 
+  }
+}
+.pf-paybox {
+  &:before {
+    content: $pf-paybox; 
+  }
+}
+.pf-paylife {
+  &:before {
+    content: $pf-paylife; 
+  }
+}
+.pf-paypal {
+  &:before {
+    content: $pf-paypal; 
+  }
+}
+.pf-paypal-alt {
+  &:before {
+    content: $pf-paypal-alt; 
+  }
+}
+.pf-paysafecard {
+  &:before {
+    content: $pf-paysafecard; 
+  }
+}
+.pf-postepay {
+  &:before {
+    content: $pf-postepay; 
+  }
+}
+.pf-quick {
+  &:before {
+    content: $pf-quick; 
+  }
+}
+.pf-rechnung {
+  &:before {
+    content: $pf-rechnung; 
+  }
+}
+.pf-ripple {
+  &:before {
+    content: $pf-ripple; 
+  }
+}
+.pf-rub {
+  &:before {
+    content: $pf-rub; 
+  }
+}
+.pf-skrill {
+  &:before {
+    content: $pf-skrill; 
+  }
+}
+.pf-sofort {
+  &:before {
+    content: $pf-sofort; 
+  }
+}
+.pf-square {
+  &:before {
+    content: $pf-square; 
+  }
+}
+.pf-stripe {
+  &:before {
+    content: $pf-stripe; 
+  }
+}
+.pf-truste {
+  &:before {
+    content: $pf-truste; 
+  }
+}
+.pf-try {
+  &:before {
+    content: $pf-try; 
+  }
+}
+.pf-unionpay {
+  &:before {
+    content: $pf-unionpay; 
+  }
+}
+.pf-usd {
+  &:before {
+    content: $pf-usd; 
+  }
+}
+.pf-verified-by-visa {
+  &:before {
+    content: $pf-verified-by-visa; 
+  }
+}
+.pf-verisign {
+  &:before {
+    content: $pf-verisign; 
+  }
+}
+.pf-visa {
+  &:before {
+    content: $pf-visa; 
+  }
+}
+.pf-visa-electron {
+  &:before {
+    content: $pf-visa-electron; 
+  }
+}
+.pf-western-union {
+  &:before {
+    content: $pf-western-union; 
+  }
+}
+.pf-pf_western-union-alt {
+  &:before {
+    content: $pf-pf_western-union-alt; 
+  }
+}
+.pf-wirecard {
+  &:before {
+    content: $pf-wirecard; 
+  }
+}
+.pf-sepa {
+  &:before {
+    content: $pf-sepa; 
+  }
+}
+.pf-sepa-alt {
+  &:before {
+    content: $pf-sepa-alt; 
+  }
+}
+.pf-apple-pay {
+  &:before {
+    content: $pf-apple-pay; 
+  }
+}
+.pf-interac {
+  &:before {
+    content: $pf-interac; 
+  }
+}
+.pf-paymill {
+  &:before {
+    content: $pf-paymill; 
+  }
+}
+.pf-dankort {
+  &:before {
+    content: $pf-dankort; 
+  }
+}
+.pf-bancontact-mister-cash {
+  &:before {
+    content: $pf-bancontact-mister-cash; 
+  }
+}
+.pf-moip {
+  &:before {
+    content: $pf-moip; 
+  }
+}
+.pf-pagseguro {
+  &:before {
+    content: $pf-pagseguro; 
+  }
+}
+.pf-cash-on-pickup {
+  &:before {
+    content: $pf-cash-on-pickup; 
+  }
+}
+.pf-sage {
+  &:before {
+    content: $pf-sage; 
+  }
+}
+.pf-elo {
+  &:before {
+    content: $pf-elo; 
+  }
+}
+.pf-elo-alt {
+  &:before {
+    content: $pf-elo-alt; 
+  }
+}
+.pf-payu {
+  &:before {
+    content: $pf-payu; 
+  }
+}
+.pf-mercado-pago {
+  &:before {
+    content: $pf-mercado-pago; 
+  }
+}
+.pf-mercado-pago-sign {
+  &:before {
+    content: $pf-mercado-pago-sign; 
+  }
+}
+.pf-payshop {
+  &:before {
+    content: $pf-payshop; 
+  }
+}
+.pf-multibanco {
+  &:before {
+    content: $pf-multibanco; 
+  }
+}
+.pf-gratipay-sign {
+  &:before {
+    content: $pf-gratipay-sign; 
+  }
+}
+.pf-six {
+  &:before {
+    content: $pf-six; 
+  }
+}
+.pf-cashcloud {
+  &:before {
+    content: $pf-cashcloud; 
+  }
+}
+.pf-interac-alt {
+  &:before {
+    content: $pf-interac-alt; 
+  }
+}
+.pf-klarna {
+  &:before {
+    content: $pf-klarna; 
+  }
+}
+.pf-bitpay {
+  &:before {
+    content: $pf-bitpay; 
+  }
+}
+.pf-venmo {
+  &:before {
+    content: $pf-venmo; 
+  }
+}
+.pf-visa-debit {
+  &:before {
+    content: $pf-visa-debit; 
+  }
+}
+.pf-alipay {
+  &:before {
+    content: $pf-alipay; 
+  }
+}
+.pf-diners-alt {
+  &:before {
+    content: $pf-diners-alt; 
+  }
+}
+.pf-hipercard {
+  &:before {
+    content: $pf-hipercard; 
+  }
+}
+.pf-skrill-alt {
+  &:before {
+    content: $pf-skrill-alt; 
+  }
+}
+.pf-shopify {
+  &:before {
+    content: $pf-shopify; 
+  }
+}
+.pf-direct-debit {
+  &:before {
+    content: $pf-direct-debit; 
+  }
+}
+.pf-sodexo {
+  &:before {
+    content: $pf-sodexo; 
+  }
+}
+.pf-bpay {
+  &:before {
+    content: $pf-bpay; 
+  }
+}
+.pf-contactless {
+  &:before {
+    content: $pf-contactless; 
+  }
+}
+.pf-contactless-alt {
+  &:before {
+    content: $pf-contactless-alt; 
+  }
+}
+.pf-eth {
+  &:before {
+    content: $pf-eth; 
+  }
+}
+.pf-ltc {
+  &:before {
+    content: $pf-ltc; 
+  }
+}
+.pf-visa-pay {
+  &:before {
+    content: $pf-visa-pay; 
+  }
+}
+.pf-wechat-pay {
+  &:before {
+    content: $pf-wechat-pay; 
+  }
+}
+.pf-amazon-pay {
+  &:before {
+    content: $pf-amazon-pay; 
+  }
+}
+.pf-amazon-pay-alt {
+  &:before {
+    content: $pf-amazon-pay-alt; 
+  }
+}
+.pf-cabal {
+  &:before {
+    content: $pf-cabal; 
+  }
+}
+.pf-diners1 {
+  &:before {
+    content: $pf-diners1; 
+  }
+}
+.pf-argencard {
+  &:before {
+    content: $pf-argencard; 
+  }
+}
+.pf-pagomiscuentas {
+  &:before {
+    content: $pf-pagomiscuentas; 
+  }
+}
+.pf-redlink {
+  &:before {
+    content: $pf-redlink; 
+  }
+}
+.pf-modo {
+  &:before {
+    content: $pf-modo; 
+  }
+}
+.pf-debin {
+  &:before {
+    content: $pf-debin; 
+  }
+}
+
