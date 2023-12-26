@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'paymentfont-webfont';
-  src:  url('fonts/paymentfont-webfont.eot?6p3lsp');
-  src:  url('fonts/paymentfont-webfont.eot?6p3lsp#iefix') format('embedded-opentype'),
-    url('fonts/paymentfont-webfont.ttf?6p3lsp') format('truetype'),
-    url('fonts/paymentfont-webfont.woff?6p3lsp') format('woff'),
-    url('fonts/paymentfont-webfont.svg?6p3lsp#paymentfont-webfont') format('svg');
+  src:  url('fonts/paymentfont-webfont.eot?6tncxz');
+  src:  url('fonts/paymentfont-webfont.eot?6tncxz#iefix') format('embedded-opentype'),
+    url('fonts/paymentfont-webfont.ttf?6tncxz') format('truetype'),
+    url('fonts/paymentfont-webfont.woff?6tncxz') format('woff'),
+    url('fonts/paymentfont-webfont.svg?6tncxz#paymentfont-webfont') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -402,4 +402,7 @@
 }
 .pf-pagofacil:before {
   content: "\f07d";
+}
+.pf-epagos:before {
+  content: "\f07e";
 }

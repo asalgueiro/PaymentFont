@@ -435,6 +435,9 @@
 .pf-pagofacil:before {
   content: "\f07d";
 }
+.pf-epagos:before {
+  content: "\f07e";
+}
 
 /*
  * Finito!

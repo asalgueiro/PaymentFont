@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?6p3lsp');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?6p3lsp#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?6p3lsp') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?6p3lsp') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?6p3lsp##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?6tncxz');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?6tncxz#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?6tncxz') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?6tncxz') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?6tncxz##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -655,6 +655,11 @@
 .pf-pagofacil {
   &:before {
     content: $pf-pagofacil; 
+  }
+}
+.pf-epagos {
+  &:before {
+    content: $pf-epagos; 
   }
 }
 
